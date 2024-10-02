@@ -14,15 +14,15 @@
 #  limitations under the License.
 from .base import Embedder
 from .mistral import MistralAIEmbeddings
-from .openai import AzureOpenAIEmbeddings, OpenAIEmbeddings
-from .sentence_transformers import SentenceTransformerEmbeddings
+#from .openai import AzureOpenAIEmbeddings, OpenAIEmbeddings
+#from .sentence_transformers import SentenceTransformerEmbeddings
 from .vertexai import VertexAIEmbeddings
 
 __all__ = [
     "Embedder",
-    "SentenceTransformerEmbeddings",
-    "OpenAIEmbeddings",
-    "AzureOpenAIEmbeddings",
+    #"SentenceTransformerEmbeddings",
+    #"OpenAIEmbeddings",
+    #"AzureOpenAIEmbeddings",
     "VertexAIEmbeddings",
     "MistralAIEmbeddings",
 ]
